@@ -3,3 +3,5 @@
 ## If you have any question about this assignment, welcome to contact me.
 ## My Gmail: Mr.guo.ytian@gmail.com
 ## I did these work on colab, it's very convenient for me to train these data with free TPU, hope you guys could have a try on colab.
+## We may need change code in feature file "orientation_histogram[:,:,i] = uniform_filter(temp_mag, size=(cx, cy))[cx/2::cx, cy/2::cy].T" to "orientation_histogram[:,:,i] = uniform_filter(temp_mag, size=(cx, cy))[int(cx/2)::cx, int(cy/2)::cy].T"
+## since in that case that number before ":: should be intergrity,  [cx/2::cx, cy/2::cy] would make type mistakes
