@@ -1,2 +1,5 @@
+Sorry for the "Convolutional Networks", I couldn't figure out what does it mean:"The fast convolution implementation depends on a Cython extension; to compile it you need to run the following from the cs231n directory:
+python setup.py build_ext --inplace"
+
 This assignment had been already released out on:http://cs231n.github.io/assignments2017/assignment2/
 Thank for Jianbo Wang's work
